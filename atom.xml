@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://raymundo1.github.io/"/>
-  <updated>2017-09-22T02:51:39.599Z</updated>
+  <updated>2017-09-22T03:04:01.191Z</updated>
   <id>http://raymundo1.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>RL intro Note two</title>
+    <link href="http://raymundo1.github.io/2017/09/21/RL-intro-2/"/>
+    <id>http://raymundo1.github.io/2017/09/21/RL-intro-2/</id>
+    <published>2017-09-22T02:54:38.000Z</published>
+    <updated>2017-09-22T03:04:01.191Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Chapter-3-Finite-Markov-Decision-Process"><a href="#Chapter-3-Finite-Markov-Decision-Process" class="headerlink" title="Chapter 3: Finite Markov Decision Process"></a>Chapter 3: Finite Markov Decision Process</h2><ul><li><p>Definition Clarification: the actions are the choices made by the agent; the  states are the basis for making the choices; and the  rewards are the basis for evaluating the choices.</p></li><li><p>3.1:  Introduce the basic idea of MDP, which set of states, rewards and actions is finite. Agent make choice on the basis states and reward, environment return the reward and state will make a transition after executing the action. </p></li><li><p>3.2: Goals means the maximization of the expected value of the cumulative sum of a received scale signal (called reward).</p></li><li><p>3.3 / 3.4:  Conclusively, we can break agent-environment interaction into two basic form - episodic tasks in undiscounted formulation and continuing task in discounted formulation. And In real life, we consider problem as episode or continue, but often both. So we have to unify these two into one equation as consider terminal state (in episodic task) is getting reward 0 in continuing task.</p></li><li><p>3.5: we get definition of value functions - functions of states that estimate how good (future reward that can be expected) it is for the agent to be in a given state by calculating the expected return value E. And a policy is a mapping from states to probabilities of selecting each possible action. And there are two value functions to get E under specific policy pi - Vpi(S)[state value function for policy pi] &amp;&amp; qpi(s, a) [action-value function for policy pi. By deducting the state value function, we can get Bellman equation . And in this book the author always use update diagram to get concrete ideal of specific problem.</p></li><li><p>3.6: In this section, the author mainly talk about Optimal Value function in base of last section equation (vpi(s) &amp;&amp; qpi(s, a)). And through the equation deducted from book,  we can get the optimal value under optimal policy. But this method has a main shortcoming, the memory doesn’t support the large size of immediate result on a vary large amount of state, even though it is finite.</p></li><li><p>3.7: According to the disadvantage of equation, the author use approximation to get closely - optimal value. Put more effort for frequent encountered states, and less effort for infrequent encountered states.</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Chapter-3-Finite-Markov-Decision-Process&quot;&gt;&lt;a href=&quot;#Chapter-3-Finite-Markov-Decision-Process&quot; class=&quot;headerlink&quot; title=&quot;Chapter 3: F
+      
+    
+    </summary>
+    
+    
+      <category term="RL-intro" scheme="http://raymundo1.github.io/tags/RL-intro/"/>
+    
+  </entry>
+  
+  <entry>
     <title>RL- Intro Note one</title>
     <link href="http://raymundo1.github.io/2017/09/14/RL-intro-1/"/>
     <id>http://raymundo1.github.io/2017/09/14/RL-intro-1/</id>
     <published>2017-09-15T02:27:16.000Z</published>
-    <updated>2017-09-22T02:51:39.599Z</updated>
+    <updated>2017-09-22T03:03:14.351Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Chapter-2-Multi-armed-Bandits"><a href="#Chapter-2-Multi-armed-Bandits" class="headerlink" title="Chapter 2 Multi-armed Bandits"></a>Chapter 2 Multi-armed Bandits</h2><ul><li><p>In the introduction, the author has analyzed two types of feedback - evaluative &amp; instructive feedback. The evaluative feedback, which is the main concept of reinforcement learning, depends entirely on the action taken. Whereas, the instructive feedback, which is basis of supervised learning, is totally independent of the action taken.</p></li><li><p>In 2.1, the author use the k-armed Bandit Problem to induce basis RL problem. And there are two basic action in the problem - exploiting and exploring action. Exploiting action is greedy action, which always choose the maximum estimate action on one step, but exploring action will randomly choose action, which produce the greater total reward in the long run. So the main focus on RL problem is how to balance exploration and exploitation to maximize total rewards.</p></li><li><p>In 2.2, it shows a important definition of true value Qt(a) - the mean reward when that action a is selected. And the simplest way to get true value is calculating the average of the rewards actually received. (Equation 2.1)</p></li><li><p>In 2.3, we will use the 10-armed testbed to see the performance of greedy action method and E-greedy action. And from the Fig 2.2, we can conclude at first beginning step, greedy action will improved slightly faster than the other method, but in the long run, E-greedy action will get better performance. </p></li><li><p>In 2.4 and 2.5 , the author deduce a equation for simply calculating new average of all n rewards can be computed – Qn+1 = Qn + 1/n (Rn - Qn), 1/n is the step-size. And for being more general to non-stationary problem, we replace 1/n by alpha (alpha &lt; 1), which will give more wight to recent rewards than to the long-past rewards. Finally, simplify the equation into (Equation 2.6). According to 2.6, when the number of intervening rewards increases, the weight of Ri decreases.</p></li><li><p>In 2.6, the author emphasizes the importance of the Initial values. Firstly, all the methods we discussed are biased by their initial estimates. Secondly, initial action values can also be used as simple way to encourage exploration.</p></li><li><p>In 2.8, the author discuss a different method to set balance of exploration and exploitation - Gradient Bandit Algorithm, which estimates not action values, but action preference Ht(a).</p></li><li><p>In 2.9,  the author expands the non-associated task to discuss more about associating setting. </p></li></ul>]]></content>
     

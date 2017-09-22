@@ -267,6 +267,141 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://raymundo1.github.io/2017/09/21/RL-intro-2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ray Chen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ray's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/09/21/RL-intro-2/" itemprop="url">RL intro Note two</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-21T20:54:38-06:00">
+                2017-09-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Chapter-3-Finite-Markov-Decision-Process"><a href="#Chapter-3-Finite-Markov-Decision-Process" class="headerlink" title="Chapter 3: Finite Markov Decision Process"></a>Chapter 3: Finite Markov Decision Process</h2><ul>
+<li><p>Definition Clarification: the actions are the choices made by the agent; the  states are the basis for making the choices; and the  rewards are the basis for evaluating the choices.</p>
+</li>
+<li><p>3.1:  Introduce the basic idea of MDP, which set of states, rewards and actions is finite. Agent make choice on the basis states and reward, environment return the reward and state will make a transition after executing the action. </p>
+</li>
+<li><p>3.2: Goals means the maximization of the expected value of the cumulative sum of a received scale signal (called reward).</p>
+</li>
+<li><p>3.3 / 3.4:  Conclusively, we can break agent-environment interaction into two basic form - episodic tasks in undiscounted formulation and continuing task in discounted formulation. And In real life, we consider problem as episode or continue, but often both. So we have to unify these two into one equation as consider terminal state (in episodic task) is getting reward 0 in continuing task.</p>
+</li>
+<li><p>3.5: we get definition of value functions - functions of states that estimate how good (future reward that can be expected) it is for the agent to be in a given state by calculating the expected return value E. And a policy is a mapping from states to probabilities of selecting each possible action. And there are two value functions to get E under specific policy pi - Vpi(S)[state value function for policy pi] &amp;&amp; qpi(s, a) [action-value function for policy pi. By deducting the state value function, we can get Bellman equation . And in this book the author always use update diagram to get concrete ideal of specific problem.</p>
+</li>
+<li><p>3.6: In this section, the author mainly talk about Optimal Value function in base of last section equation (vpi(s) &amp;&amp; qpi(s, a)). And through the equation deducted from book,  we can get the optimal value under optimal policy. But this method has a main shortcoming, the memory doesn’t support the large size of immediate result on a vary large amount of state, even though it is finite.</p>
+</li>
+<li><p>3.7: According to the disadvantage of equation, the author use approximation to get closely - optimal value. Put more effort for frequent encountered states, and less effort for infrequent encountered states.</p>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://raymundo1.github.io/2017/09/14/RL-intro-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -568,7 +703,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>

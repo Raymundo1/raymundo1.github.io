@@ -79,7 +79,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="RL-intro," />
 
 
 
@@ -97,14 +97,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://raymundo1.github.io/tags/index.html">
+<meta name="description" content="Chapter 3: Finite Markov Decision Process Definition Clarification: the actions are the choices made by the agent; the  states are the basis for making the choices; and the  rewards are the basis for">
+<meta name="keywords" content="RL-intro">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RL intro Note two">
+<meta property="og:url" content="http://raymundo1.github.io/2017/09/21/RL-intro-2/index.html">
 <meta property="og:site_name" content="Ray&#39;s Blog">
+<meta property="og:description" content="Chapter 3: Finite Markov Decision Process Definition Clarification: the actions are the choices made by the agent; the  states are the basis for making the choices; and the  rewards are the basis for">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-09-09T21:29:31.956Z">
+<meta property="og:updated_time" content="2017-09-22T03:04:01.191Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="RL intro Note two">
+<meta name="twitter:description" content="Chapter 3: Finite Markov Decision Process Definition Clarification: the actions are the choices made by the agent; the  states are the basis for making the choices; and the  rewards are the basis for">
 
 
 
@@ -134,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="http://raymundo1.github.io/tags/"/>
+  <link rel="canonical" href="http://raymundo1.github.io/2017/09/21/RL-intro-2/"/>
 
 
 
 
 
-  <title>tags | Ray's Blog</title>
+  <title>RL intro Note two | Ray's Blog</title>
   
 
 
@@ -255,40 +259,159 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://raymundo1.github.io/2017/09/21/RL-intro-2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ray Chen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ray's Blog">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                1 tag in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/RL-intro/" style="font-size: 12px; color: #ccc">RL-intro</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">RL intro Note two</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-21T20:54:38-06:00">
+                2017-09-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h2 id="Chapter-3-Finite-Markov-Decision-Process"><a href="#Chapter-3-Finite-Markov-Decision-Process" class="headerlink" title="Chapter 3: Finite Markov Decision Process"></a>Chapter 3: Finite Markov Decision Process</h2><ul>
+<li><p>Definition Clarification: the actions are the choices made by the agent; the  states are the basis for making the choices; and the  rewards are the basis for evaluating the choices.</p>
+</li>
+<li><p>3.1:  Introduce the basic idea of MDP, which set of states, rewards and actions is finite. Agent make choice on the basis states and reward, environment return the reward and state will make a transition after executing the action. </p>
+</li>
+<li><p>3.2: Goals means the maximization of the expected value of the cumulative sum of a received scale signal (called reward).</p>
+</li>
+<li><p>3.3 / 3.4:  Conclusively, we can break agent-environment interaction into two basic form - episodic tasks in undiscounted formulation and continuing task in discounted formulation. And In real life, we consider problem as episode or continue, but often both. So we have to unify these two into one equation as consider terminal state (in episodic task) is getting reward 0 in continuing task.</p>
+</li>
+<li><p>3.5: we get definition of value functions - functions of states that estimate how good (future reward that can be expected) it is for the agent to be in a given state by calculating the expected return value E. And a policy is a mapping from states to probabilities of selecting each possible action. And there are two value functions to get E under specific policy pi - Vpi(S)[state value function for policy pi] &amp;&amp; qpi(s, a) [action-value function for policy pi. By deducting the state value function, we can get Bellman equation . And in this book the author always use update diagram to get concrete ideal of specific problem.</p>
+</li>
+<li><p>3.6: In this section, the author mainly talk about Optimal Value function in base of last section equation (vpi(s) &amp;&amp; qpi(s, a)). And through the equation deducted from book,  we can get the optimal value under optimal policy. But this method has a main shortcoming, the memory doesn’t support the large size of immediate result on a vary large amount of state, even though it is finite.</p>
+</li>
+<li><p>3.7: According to the disadvantage of equation, the author use approximation to get closely - optimal value. Put more effort for frequent encountered states, and less effort for infrequent encountered states.</p>
+</li>
+</ul>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/RL-intro/" rel="tag"># RL-intro</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/14/RL-intro-1/" rel="next" title="RL- Intro Note one">
+                <i class="fa fa-chevron-left"></i> RL- Intro Note one
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -297,6 +420,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -317,8 +444,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -389,6 +525,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Chapter-3-Finite-Markov-Decision-Process"><span class="nav-number">1.</span> <span class="nav-text">Chapter 3: Finite Markov Decision Process</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -509,6 +661,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
 
   
 
