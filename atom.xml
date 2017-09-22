@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://raymundo1.github.io/"/>
-  <updated>2017-09-09T20:12:53.888Z</updated>
+  <updated>2017-09-22T02:51:39.599Z</updated>
   <id>http://raymundo1.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RL- Intro Note one</title>
+    <link href="http://raymundo1.github.io/2017/09/14/RL-intro-1/"/>
+    <id>http://raymundo1.github.io/2017/09/14/RL-intro-1/</id>
+    <published>2017-09-15T02:27:16.000Z</published>
+    <updated>2017-09-22T02:51:39.599Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Chapter-2-Multi-armed-Bandits"><a href="#Chapter-2-Multi-armed-Bandits" class="headerlink" title="Chapter 2 Multi-armed Bandits"></a>Chapter 2 Multi-armed Bandits</h2><ul><li><p>In the introduction, the author has analyzed two types of feedback - evaluative &amp; instructive feedback. The evaluative feedback, which is the main concept of reinforcement learning, depends entirely on the action taken. Whereas, the instructive feedback, which is basis of supervised learning, is totally independent of the action taken.</p></li><li><p>In 2.1, the author use the k-armed Bandit Problem to induce basis RL problem. And there are two basic action in the problem - exploiting and exploring action. Exploiting action is greedy action, which always choose the maximum estimate action on one step, but exploring action will randomly choose action, which produce the greater total reward in the long run. So the main focus on RL problem is how to balance exploration and exploitation to maximize total rewards.</p></li><li><p>In 2.2, it shows a important definition of true value Qt(a) - the mean reward when that action a is selected. And the simplest way to get true value is calculating the average of the rewards actually received. (Equation 2.1)</p></li><li><p>In 2.3, we will use the 10-armed testbed to see the performance of greedy action method and E-greedy action. And from the Fig 2.2, we can conclude at first beginning step, greedy action will improved slightly faster than the other method, but in the long run, E-greedy action will get better performance. </p></li><li><p>In 2.4 and 2.5 , the author deduce a equation for simply calculating new average of all n rewards can be computed – Qn+1 = Qn + 1/n (Rn - Qn), 1/n is the step-size. And for being more general to non-stationary problem, we replace 1/n by alpha (alpha &lt; 1), which will give more wight to recent rewards than to the long-past rewards. Finally, simplify the equation into (Equation 2.6). According to 2.6, when the number of intervening rewards increases, the weight of Ri decreases.</p></li><li><p>In 2.6, the author emphasizes the importance of the Initial values. Firstly, all the methods we discussed are biased by their initial estimates. Secondly, initial action values can also be used as simple way to encourage exploration.</p></li><li><p>In 2.8, the author discuss a different method to set balance of exploration and exploitation - Gradient Bandit Algorithm, which estimates not action values, but action preference Ht(a).</p></li><li><p>In 2.9,  the author expands the non-associated task to discuss more about associating setting. </p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Chapter-2-Multi-armed-Bandits&quot;&gt;&lt;a href=&quot;#Chapter-2-Multi-armed-Bandits&quot; class=&quot;headerlink&quot; title=&quot;Chapter 2 Multi-armed Bandits&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+    
+      <category term="RL-intro" scheme="http://raymundo1.github.io/tags/RL-intro/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
