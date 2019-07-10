@@ -1,23 +1,30 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+
+#Turn on future posts
+future:           true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Shahid Khaliq
+tagline:		  	
+description:      'I write to taste life in retrospect and to record things I might forget.'
+
+url:              http://www.shahidkhaliq.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Shahid Khaliq'
+  url:            http://www.shahidkhaliq.com/
 
-paginate:         5
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+paginate:         3
+
 
 # Custom vars
 version:          2.1.0
