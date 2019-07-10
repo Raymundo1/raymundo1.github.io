@@ -8,16 +8,16 @@ permalink:        pretty
 future:           true
 
 # Setup
-title:            Shahid Khaliq
+title:            Xinlei Chen
 tagline:		  	
-description:      'I write to taste life in retrospect and to record things I might forget.'
+description:      'I have always thought that I would love to live by the sea, to travel the world alone and live my life more simply.'
 
-url:              http://www.shahidkhaliq.com
+url:              https://raymundo1.github.io/
 baseurl:          /
 
 author:
-  name:           'Shahid Khaliq'
-  url:            http://www.shahidkhaliq.com/
+  name:           'Xinlei(Ray) Chen'
+  url:            https://raymundo1.github.io/
 
 plugins:
   - jekyll-paginate

@@ -1,106 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Shahid Khaliq</title>
+ <title>Xinlei Chen</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-07-10T13:16:41-06:00</updated>
+ <updated>2019-07-10T14:13:05-06:00</updated>
  <id>http://localhost:4000</id>
  <author>
-   <name>Shahid Khaliq</name>
+   <name>Xinlei(Ray) Chen</name>
    <email></email>
  </author>
 
  
  <entry>
-   <title>Book review - The Final Empire</title>
-   <link href="http://localhost:4000/2016/03/03/the-final-empire-review/"/>
-   <updated>2016-03-03T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2016/03/03/the-final-empire-review</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/posterkelsier.jpg&quot; alt=&quot;&quot; title=&quot;Kelsier figthing steel inquisitors.&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you believe in fate, you believe that there can only be a finite number of troubling events in your life. And whenever one occurs, you would know that thereafter your life could only get better since fewer of them are left.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is the first book of the original Mistborn trilogy from Brandon Sanderson and it’s fantastic. I really enjoyed reading it and I’ll be reading the next two books as well. I like how Sanderson can immerse a reader in his story with simple and clear prose. The book alternates between the points of view of two characters, although only one of them is the protagonist. Character development is excellently done and the reader finishes the book with having developed bonds with a lot of characters. Fights are very intense and enjoyable and you’ll find yourself frantically turning pages whenever one comes.&lt;/p&gt;
-
-&lt;p&gt;The magic system feels a bit weird at the start and might not initially seem very intuitive but as the story progresses, the reader gets used to it. I felt that the development of the world was somewhat lacking because most of the story takes place in a single city. Still, I appreciate that, unlike a lot of other authors, Sanderson does not waste too much time in describing the setting and the environment. His main focus is moving the story forward and that, to me, feels more fulfilling.&lt;/p&gt;
-
-&lt;p&gt;Sanderson makes all the pieces of the story fit together very well. There are no abrupt disappointing twists or any sort of fillers, the story is concluded at the end of the book and the reader isn’t left at a cliff hanger. Although a few questions are left unanswered, you won’t have to read the other books in the series to get closure. I recommend this book to everyone who likes fantasy.&lt;/p&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>Book review - The 5th Wave</title>
-   <link href="http://localhost:4000/2016/01/30/the-5th-wave-review/"/>
-   <updated>2016-01-30T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2016/01/30/the-5th-wave-review</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/postercassie.jpg&quot; alt=&quot;&quot; title=&quot;Cassie and Sammy&quot; /&gt;
-I haven’t read Twilight but I think if you switched vampires with aliens in it, you’d get this book. The first few pages were kind of good although my dislike for the protagonist started from the very beginning. There’s just something wrong with her. I hated her till the end. After the initial good read of an hour or so, a part describing her high school crush started. It was horrible. I remember Googling the age group targeted by the author and cursing Goodreads for not explicitly specifying it. What does young adult mean anyway?&lt;/p&gt;
-
-&lt;p&gt;It’s very weird when an adult male author tries to write about romance from the point of view of a teenage girl. It seemed shallow and superficial and his repeated attempts at it made me cringe. Like Twilight, there are two guys. And obviously, both of them are unrealistically good looking. During the first half of the book, I constantly felt like putting it down. I didn’t because I had resolved to not leave a book unfinished. I will definitely not be reading the next two books in the series, though.&lt;/p&gt;
-
-&lt;p&gt;There are a number of technical discrepancies. On one hand the aliens are thousands of years ahead of humans in technological advancement and they can pull off stuff like remotely downloading themselves into human brains. On the other hand, the protagonist and her friends are able to outsmart them on a number of occasions using technical limitations that shouldn’t even exist for them. Removing the tracker from your body doesn’t alert them. They can’t search for you using heat cameras in a building. Heck, their main base doesn’t even have normal human cameras! Reading stuff like this was a letdown. It felt like the author hadn’t bothered to think a lot of things through and he hadn’t expected the reader to do so either.&lt;/p&gt;
-
-&lt;p&gt;The second half of the book was more action packed then the first half. There are a few somewhat enjoyable twists in the story and despite all my complaints, it got easier for me to finish it. I have given it three out of five on Goodreads but only because I figured that maybe the book isn’t targeted at an audience like myself and it was written for teenage girls.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Book review - Long Walk to Freedom</title>
-   <link href="http://localhost:4000/2016/01/26/long-walk-to-freedom-review/"/>
-   <updated>2016-01-26T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2016/01/26/long-walk-to-freedom-review</id>
-   <content type="html">&lt;p&gt;&lt;img style=&quot;float: right; max-width: 15em; max-height: 15em;&quot; src=&quot;/public/postermandela.jpg&quot; /&gt;
-Recently, I finished reading Nelson Mandela’s Long Walk to Freedom and I thoroughly enjoyed it. The book takes you on a journey in Mandela’s shoes and you experience his life starting from his childhood to the days when apartheid was finally demolished in South Africa. It’s an autobiography and a large part of it was written by Mandela when he was in prison.&lt;/p&gt;
-
-&lt;p&gt;I would recommend the book to everyone who wants to learn about the brave and wise man that Nelson Mandela was. He sacrificed his family life and his own freedom so he could free his people from the shackles of apartheid.&lt;/p&gt;
-
-&lt;p&gt;I have learned so much from this book. I’ve learned about topics like politics and law. I’ve learned about ideologies like nationalism and communism. And I’ve learned important lessons about how diligence, bravery, discipline and honesty always eventually pay off.&lt;/p&gt;
-
-&lt;p&gt;The book literally teleports you to 20th century South Africa and you actually feel the evil that apartheid was. At some points it gets a bit slow, while at others it’s a page turner. It’s a lengthy book but definitely a must read for everyone.&lt;/p&gt;
-
-&lt;p&gt;The following are a few of my favorite quotes from the book.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“It is easier to educate a man when he wants to learn.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“No one is born hating another person. People must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than it’s opposite.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“For with women, I found the I could let my hair down and confess to weaknesses and fears I would never reveal to another man.’&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Book review - The Name of the Wind</title>
-   <link href="http://localhost:4000/2016/01/15/the-name-of-the-wind-review/"/>
-   <updated>2016-01-15T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2016/01/15/the-name-of-the-wind-review</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/public/posterkvothe.jpg&quot; alt=&quot;&quot; title=&quot;Kvothe in Tarbean&quot; /&gt;
-I love this book. I can’t say if you’ll like it too, though. Patrick Rothfuss is an eloquent writer and his work doesn’t let you get bored. The book was a long read but I enjoyed most of it. A few parts are so well written that it actually made me think I was reading the best book ever written. The part where his father’s lute gets broken in Tarbean, Kvothe’s first performance at The Eolian and the part where he calls the name of the wind were so grasping, it made me feel like I was the protagonist myself.&lt;/p&gt;
-
-&lt;p&gt;The second half of the book doesn’t do justice to the first one. I was actually disappointed when I finished reading it. In the second half, a few hundred pages are basically fillers. They don’t move the story at all and although I somewhat enjoyed reading them, they seemed like a waste of space considering that the series is planned to only have three books. Furthermore, the first half of the book builds upon Kvothe, the protagonist. The reader gets very close to him. I was hoping that in the second half the author would ease the reader into forming bonds with the world he has created and with other characters. The author did a poor job of that.  You finish the book with the story hanging. Nothing important happens in the second half and the only character you feel attached to is Kvothe. This was kind of disappointing, given I’d read about a thousand pages. I was hoping to get more out of it.&lt;/p&gt;
-
-&lt;p&gt;Remember that feeling you got when you finished reading the first Harry Potter book? You loved so many characters. You loved the world. You don’t get that feeling when you finish this book. I know it’s unfair comparing this book with Harry Potter and although Patrick Rothfuss writes better than J.K. Rowling, I feel he focuses too much on the point in the story he’s writing at a specific moment and doesn’t think much about how that part will contribute to the story as a whole. Another complaint I have is that Rothfuss doesn’t care much about female characters. Out of the three there are, two are portrayed as being unrealistically flirty and shallow.&lt;/p&gt;
-
-&lt;p&gt;I started reading the second book of the series but the fear that I would again be disappointed at the end constantly loomed over my head. So I put it to hold. I’ll finish the series when the third book comes out. I do recommend the book but only because of the writing style, not because of the story. It’s definitely worth reading.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>The first post</title>
-   <link href="http://localhost:4000/2016/01/01/the-first-post/"/>
-   <updated>2016-01-01T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2016/01/01/the-first-post</id>
-   <content type="html">&lt;p&gt;I’ve been meaning to start writing for quite some time now. This domain has been gathering dust ever since I purhcased it a few months back. But that’s hopefully about to change. I’ve spent the past couple of days getting this website up and running and I can finally start writing. For me, writing is a very fulfilling activity. It gives me peace of mind and this blog shall serve as a platform for me to put out all my 
-random thoughts. You’ll find blog posts containing tirades, book reviews and even technical tutorials. I don’t plan on ever monetizing this blog so one can expect sporadic posts because I’ll only be writing when I really feel like it.&lt;/p&gt;
+   <link href="http://localhost:4000/2019/07/10/the-first-post/"/>
+   <updated>2019-07-10T00:00:00-06:00</updated>
+   <id>http://localhost:4000/2019/07/10/the-first-post</id>
+   <content type="html">&lt;p&gt;From now on, I will start writing article on this new personal website. The content will not be limited to Computer Science which is the subject I’m studying on the University. Because English is my second language, please forgive me for grammatical mistake that may exists.&lt;/p&gt;
 </content>
  </entry>
  
