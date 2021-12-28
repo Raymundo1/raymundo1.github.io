@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Xinlei(Ray) Chen</title>
+ <title>Xinlei (Ray) Chen</title>
  <link href="https://raymundo1.github.io//atom.xml" rel="self"/>
  <link href="https://raymundo1.github.io//"/>
- <updated>2021-03-03T12:32:24-07:00</updated>
+ <updated>2021-12-28T11:54:19-07:00</updated>
  <id>https://raymundo1.github.io/</id>
  <author>
-   <name>Xinlei(Ray) Chen</name>
+   <name>Xinlei (Ray) Chen</name>
    <email></email>
  </author>
 
@@ -17,7 +17,7 @@
    <link href="https://raymundo1.github.io//2019/07/10/the-first-post/"/>
    <updated>2019-07-10T00:00:00-06:00</updated>
    <id>https://raymundo1.github.io//2019/07/10/the-first-post</id>
-   <content type="html">&lt;p&gt;From now on, I will start writing article on this new personal website. The content will not be limited to Computer Science which is the subject I’m studying on the University. Because English is my second language, please forgive me for grammatical mistake that may exists.&lt;/p&gt;
+   <content type="html">&lt;p&gt;From now on, I will start writing article on this new personal website. The content will not be limited to Computer Science which is the subject I’m studying on the University.&lt;/p&gt;
 </content>
  </entry>
  
